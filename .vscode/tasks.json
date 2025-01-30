@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "Start Python HTTP Server",
+                "type": "shell",
+                "command": "python",
+                "args": ["-m", "http.server", "8000"],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "problemMatcher": [],
+                "isBackground": true,
+                "port": 8000
+            }
+        ]
+    }
+    
