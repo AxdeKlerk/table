@@ -11,7 +11,7 @@
         fetch("https://ci-swapi.herokuapp.com/api/")
         .then(response => response.json())
         .then(data => {
-            document.getElementById("content").innerHTML = data.planets;
+            document.getElementById("content").innerHTML = data;
         });
     </script>
 </body>
