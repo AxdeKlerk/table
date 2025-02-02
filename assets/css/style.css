@@ -1,4 +1,4 @@
-@font-face {
+  /*@font-face {
     font-family: "Menlo";
     font-style: normal;
     font-weight: normal;
@@ -21,7 +21,7 @@
     font-style: italic;
     font-weight: bold;
     src: url("../fonts/Menlo-BoldItalic.woff") format("woff");
-  }
+  }*/
   
   ::-webkit-scrollbar {
     -webkit-appearance: none;
